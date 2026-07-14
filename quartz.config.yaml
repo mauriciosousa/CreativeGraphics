@@ -12,23 +12,32 @@ configuration:
     - private
     - templates
     - .obsidian
-theme:
-  fontOrigin: googleFonts
-  cdnCaching: true
-  typography:
-    header: "Schibsted Grotesk"
-    body: "Inter"
-    code: "IBM Plex Mono"
-  colors:
-    lightMode:
-      light: "#ffffff"
-      lightgray: "#e5e5e5"
-      gray: "#b8b8b8"
-      darkgray: "#1a1a1a"
-      dark: "#000000"
-      secondary: "#c96f1e"
-      tertiary: "#e8871e"
-      highlight: "rgba(232, 135, 30, 0.15)"
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header: "Schibsted Grotesk"
+      body: "Inter"
+      code: "IBM Plex Mono"
+    colors:
+      lightMode:
+        light: "#ffffff"
+        lightgray: "#e5e5e5"
+        gray: "#b8b8b8"
+        darkgray: "#1a1a1a"
+        dark: "#000000"
+        secondary: "#c96f1e"
+        tertiary: "#e8871e"
+        highlight: "rgba(232, 135, 30, 0.15)"
+      darkMode:
+        light: "#161618"
+        lightgray: "#393639"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#e8871e"
+        tertiary: "#c96f1e"
+        highlight: "rgba(232, 135, 30, 0.15)"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
