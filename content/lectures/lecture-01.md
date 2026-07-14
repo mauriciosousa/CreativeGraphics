@@ -29,3 +29,8 @@ This lecture introduces the foundational concepts of creative imagery and intera
 ## Slides
 
 _Link or embed slides here once available._
+
+
+## Interactive Example
+
+<iframe src="https://openprocessing.org/sketch/2955184/embed/" width="400" height="400" frameborder="0"></iframe>
